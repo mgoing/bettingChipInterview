@@ -62,10 +62,10 @@ public class App {
             bettingChips = originalBettingChips;
             totalChips = startTotalChips;
             
-            System.out.println("Press Enter to play again...");
-            scanner.nextLine(); // Pause before restarting
+            
         }
-        
+        System.out.println("wins -- losses " + wins + ""+ losses);
+            scanner.nextLine(); // Pause before restarting
         scanner.close();
     }
 }
